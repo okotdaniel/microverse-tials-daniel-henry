@@ -7,22 +7,61 @@
   </head>
 
   <body>
+
+    <header id="header">
+
+      <div class="logo">
+        <img src id="header-img">
+      </div>
+        
+      <nav id="nav-bar">
+        <li><a href="#header" class="nav-link">Home</a></li>
+        <li><a href="#video" class="nav-link">video</a></li>
+        <li><a href="#form" class="nav-link">Form</a></li>
+      </nav>
+
+    </header>
+
+
+    <div id="section-section">
+      <h2>How it works </h2>
+      
+      <iframe
+        id="video"
+        height="315"
+        src="https://www.youtube.com/embed/0Wf9bRXUe8M" 
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+  <div class="section-email">
+    <h2>Subscribe to our mail</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+  </div>
+
+  <footer>
+    <li> <a href="#">Home</a> </li>
+    <li> <a href="#">products</a> </li>
+    <li> <a href="#">links</a> </li>
+
+    <p>
+      &copy; 2018 All rights reserverd. Coded by Henry and Daniel
+    </p>
+
+  </footer>
+
+  
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    “Hello World, we are software developers!” 
-    
     <script  src="js/index.js"></script>
   </body>
 </html>
