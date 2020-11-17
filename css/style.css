@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+#header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blue;
+}
+
 #header-img{
   border-radius: 50px;
   width: 50px;
@@ -11,18 +22,10 @@
   
 }
 
-
-#nav-bar{
-  display: flex;
-  padding: 2rem;
-  background-color: blue; 
-  width: 100%;
-  
-}
-
-#nav-bar li{
+#header li{
   list-style: none;
   padding: 2rem;
+  float:left;
   
 
 }
@@ -120,4 +123,10 @@ footer li a{
   float: left;
  padding: 3px;
 
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
 }
